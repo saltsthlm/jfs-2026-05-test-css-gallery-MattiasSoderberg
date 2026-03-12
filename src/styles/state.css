@@ -1,0 +1,8 @@
+@media (width >= 40rem) {
+  .card-container {
+    flex-direction: row;
+  }
+}
+
+@media (width >= 64rem) {
+}
