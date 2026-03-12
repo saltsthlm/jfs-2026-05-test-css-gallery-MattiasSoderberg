@@ -1,0 +1,55 @@
+@media (width >= 40rem) {
+  nav {
+    gap: 3rem;
+    padding: 3rem;
+  }
+
+  section {
+    padding: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .heading-container {
+    & h1 {
+      font-size: 2.8rem;
+    }
+
+    & h2 {
+      font-size: 1.7rem;
+      opacity: 0.8;
+    }
+  }
+
+  .divider {
+    height: 2px;
+    opacity: 0.2;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media (width >= 80rem) {
+  .heading-container {
+    & h1 {
+      font-size: 3.2rem;
+    }
+
+    & h2 {
+      font-size: 1.8rem;
+      opacity: 0.8;
+    }
+  }
+
+  .divider {
+    margin: 2rem 0;
+  }
+  .cards-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

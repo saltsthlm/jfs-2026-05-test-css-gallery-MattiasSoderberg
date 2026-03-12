@@ -1,15 +1,287 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS News</title>
-    <link href="/styles/font.css" rel="stylesheet">
+    <title>THE News Site</title>
+    <!-- <link href="/styles/font.css" rel="stylesheet" /> -->
+    <link href="/styles/base.css" rel="stylesheet" />
+    <link href="/styles/module.css" rel="stylesheet" />
+    <link href="/styles/state.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Write your code here</h1>
-    <p>Put the CSS in separate files in the <code><big>src/styles</big></code> folder and link them in the html file</p>
+    <div>
+      <header>
+        <div class="heading-container">
+          <h1>THE News Site</h1>
+          <h2>The most interesting news out there</h2>
+        </div>
+        <nav>
+          <a class="button-small nav-link" href="/#breaking">Breaking</a>
+          <a class="button-small nav-link" href="/#international"
+            >International</a
+          >
+          <a class="button-small nav-link" href="/#sports">Sports</a>
+        </nav>
+      </header>
+      <main>
+        <section class="news-section" id="breaking">
+          <h2>Breaking</h2>
+          <div class="divider"></div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="assets/images/tech_district_overnight_blackout.jpg" />
+              <div class="card-content">
+                <h3>Tech District Overnight Blackout</h3>
+                <p>
+                  Residents of the city’s technology hub woke up to a complete
+                  blackout early Thursday after an unexplained power surge
+                  overloaded several substations. Authorities reported that the
+                  outage began around 2:15 a.m., leaving thousands without
+                  electricity for nearly four hours. Emergency crews worked
+                  through the night to restore power while investigators
+                  examined whether a malfunction or cyber interference caused
+                  the surge. By morning, power had returned to most buildings,
+                  but officials warned that a full investigation could take
+                  days.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/emergency_housing_plan_approved.jpg" />
+              <div class="card-content">
+                <h3>Emergency Housing Plan Approved</h3>
+                <p>
+                  In a late-night session, the city council unanimously approved
+                  an emergency housing initiative following a sudden population
+                  increase over the past six months. The plan allocates
+                  temporary modular housing units and accelerates permits for
+                  affordable housing projects. Local officials said the move
+                  aims to prevent homelessness while longer-term construction
+                  projects are completed. Community leaders expressed cautious
+                  optimism but emphasized the need for sustainable
+                  infrastructure solutions.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/coastal_tremor_swarm_detected.jpg" />
+              <div class="card-content">
+                <h3>Coastal Tremor Swarm Detected</h3>
+                <p>
+                  Geologists have reported an unusual cluster of minor tremors
+                  off the coast, prompting increased monitoring of the region’s
+                  fault lines. Over 30 small earthquakes were recorded within a
+                  12-hour period, none strong enough to cause damage. Experts
+                  say such swarms are not uncommon but are carefully tracked to
+                  determine whether they could precede a larger event. Emergency
+                  agencies stated there is currently no cause for alarm but
+                  advised residents to review earthquake preparedness
+                  guidelines.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/highway_closed_after_sinkhole.jpg" />
+              <div class="card-content">
+                <h3>Highway Closed After Sinkhole</h3>
+                <p>
+                  A section of the main highway was abruptly closed today after
+                  a large sinkhole opened in the middle of the roadway during
+                  rush hour. Witnesses reported seeing the pavement crack before
+                  a portion collapsed, forcing traffic to halt immediately.
+                  Transportation officials diverted vehicles and confirmed that
+                  no injuries were reported. Engineers are now assessing
+                  underground water lines and soil stability to determine what
+                  caused the collapse.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news-section" id="international">
+          <h2>International</h2>
+          <div class="divider"></div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="assets/images/ocean_protection_pact_signed.jpg" />
+              <div class="card-content">
+                <h3>Ocean Protection Pact Signed</h3>
+                <p>
+                  Leaders from over 40 countries concluded an international
+                  climate summit by signing a landmark agreement aimed at
+                  protecting marine ecosystems. The pact includes commitments to
+                  reduce ocean pollution, expand protected marine areas, and
+                  fund coastal restoration projects. Environmental groups
+                  welcomed the move but stressed that enforcement and funding
+                  will be crucial for meaningful progress.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/three-nation_rail_corridor_opens.jpg" />
+              <div class="card-content">
+                <h3>Three-Nation Rail Corridor Opens</h3>
+                <p>
+                  A new high-speed rail corridor connecting three neighboring
+                  countries officially opened this week, promising to reduce
+                  travel times and boost regional trade. The project took nearly
+                  a decade to complete and involved extensive cooperation
+                  between governments and private investors. Officials believe
+                  the railway will strengthen economic ties while providing a
+                  more sustainable alternative to air travel.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/global_heritage_restoration_fund.jpg" />
+              <div class="card-content">
+                <h3>Global Heritage Restoration Fund</h3>
+                <p>
+                  An international coalition announced a multi-million-dollar
+                  initiative to restore endangered cultural heritage sites
+                  around the world. The program will focus on ancient temples,
+                  historic cities, and monuments threatened by weather, tourism
+                  pressure, and conflict. Preservation experts say the funding
+                  could help safeguard centuries of history while promoting
+                  responsible tourism.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/ai_regulation_alliance_formed.jpg" />
+              <div class="card-content">
+                <h3>AI Regulation Alliance Formed</h3>
+                <p>
+                  Several major economies announced the creation of a new
+                  alliance aimed at establishing shared standards for artificial
+                  intelligence development. The initiative seeks to address
+                  concerns about privacy, safety, and ethical use of AI
+                  technologies. Member countries plan to collaborate on
+                  research, guidelines, and oversight mechanisms to ensure
+                  responsible innovation.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news-section" id="sports">
+          <h2>Sports</h2>
+          <div class="divider"></div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="assets/images/underdogs_win_championship.jpg" />
+              <div class="card-content">
+                <h3>Underdogs Win Championship</h3>
+                <p>
+                  In one of the most surprising finishes of the season, an
+                  underdog team captured the national championship after a tense
+                  overtime victory. The game remained tied until the final
+                  minute, when a last-second play forced overtime and shifted
+                  momentum. Fans erupted as the winning goal sealed a historic
+                  victory, marking the team’s first championship in over two
+                  decades.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/marathon_record_shattered.jpg" />
+              <div class="card-content">
+                <h3>Marathon Record Shattered</h3>
+                <p>
+                  A professional runner shattered a marathon record that had
+                  stood for nearly 15 years during a major international race.
+                  Spectators watched in awe as the athlete maintained a
+                  blistering pace throughout the course, finishing several
+                  seconds ahead of the previous record time. Analysts say the
+                  performance could redefine expectations for endurance racing.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/teams_advance_to_final.jpg" />
+              <div class="card-content">
+                <h3>Teams Advance to Final</h3>
+                <p>
+                  Two powerhouse teams secured their places in the championship
+                  final after a thrilling semi-final matchup that went down to
+                  the last play. The game featured multiple lead changes and
+                  standout performances from both sides. Fans are already
+                  anticipating a highly competitive final scheduled for next
+                  week.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/rookie_shines_in_debut.jpg" />
+              <div class="card-content">
+                <h3>Rookie Shines in Debut</h3>
+                <p>
+                  A rookie athlete made an unforgettable debut by delivering a
+                  standout performance in the opening game of the season. The
+                  newcomer scored multiple points and demonstrated remarkable
+                  composure under pressure. Coaches and commentators alike are
+                  already predicting a breakout season if the momentum
+                  continues.
+                </p>
+                <div class="button-container">
+                  <button class="button-small">Read</button>
+                  <button class="button-small">Share</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; THE News Site</p>
+      </footer>
+    </div>
     <script src="./bundle.js"></script>
   </body>
 </html>

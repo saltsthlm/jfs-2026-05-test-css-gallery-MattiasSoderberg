@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --foreground: #13151a;
+  --background: #fcfcf5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  width: 100vw;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0.5rem;
+  background-color: var(--background);
+  flex-wrap: wrap;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 3rem;
+
+  & > h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}
+
+footer {
+  background-color: var(--foreground);
+  padding: 0.5rem;
+
+  & p {
+    color: var(--background);
+  }
+}
